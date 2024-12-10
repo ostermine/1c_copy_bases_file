@@ -42,5 +42,9 @@ def update_files() -> bool:
     os.system(f'net use {drive_letter} /delete')
 
 if __name__ == "__main__":
-    update_files()
+    try:
+        update_files()
+        os._exit(os.EX_OK)
+    except:
+        os._exit(1)
 
