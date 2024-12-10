@@ -1,0 +1,18 @@
+share_path: \\192.168.1.10\share
+
+user: svc_python
+passwd: 123
+
+appdata: C:\Users\%s\AppData\Roaming\1C\1CEStart
+1c_file: ibases.v8i
+
+users:
+  - 
+    user: user1
+    path: GPO\VM\buh_zup.v8i
+  -
+    user: user2
+    path: GPO\VM\buh.v8i
+  -
+    #user: user3
+    #path: GPO\VM\buh.v8i
